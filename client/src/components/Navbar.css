@@ -1,0 +1,61 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222; /* Dark background for the navbar */
+  padding: 10px 20px;
+  color: #fff;
+}
+
+/* Logo section */
+.navbar-logo img {
+  width: 100px; /* Adjust the size as needed */
+}
+
+/* Search bar styling */
+.navbar-search {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.search-input {
+  width: 60%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+
+/* Navbar links styling */
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #ccc; /* Lighter color on hover */
+}
+
+/* Cart icon section */
+.navbar-cart {
+  position: relative;
+}
+
+.cart-icon {
+  color: #fff;
+  cursor: pointer;
+}
+
+.cart-icon:hover {
+  color: #ccc; /* Lighter color on hover */
+}

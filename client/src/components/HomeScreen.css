@@ -1,0 +1,15 @@
+.home-screen {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: gold;
+  }
+  
+  .home-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid gold;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,53 @@
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #000; /* Black background */
+  color: #ffd700; /* Gold text color */
+  border-right: 1px solid #ffd700; /* Gold border */
+}
+
+.sidebar-title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #ffd700; /* Gold title color */
+}
+
+.filter-list {
+  list-style: none;
+  padding: 0;
+}
+
+.filter-category {
+  margin-bottom: 20px;
+}
+
+.filter-category-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #ffd700; /* Gold category title color */
+}
+
+.filter-options {
+  list-style: none;
+  padding: 0;
+}
+
+.filter-item {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  color: #ffd700; /* Gold text color for options */
+}
+
+.filter-item:hover {
+  background-color: #333; /* Dark background on hover */
+}
+
+.filter-item.selected {
+  background-color: #ffd700; /* Gold background for selected items */
+  color: #000; /* Black text color for selected items */
+}
+
+
+  
