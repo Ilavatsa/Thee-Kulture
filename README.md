@@ -1,1 +1,0 @@
-# Thee-Kulture
