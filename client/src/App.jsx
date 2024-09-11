@@ -1,6 +1,9 @@
 // src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import DrinksList from './components/DrinksList';
+import DrinkDetails from './components/DrinkDetails';
+import Cart from './components/Cart';
 import Navbar from './components/Navbar';
 import DropdownMenu from './components/DropdownMenu'; // Ensure this is imported
 import Sidebar from './components/Sidebar';
@@ -21,6 +24,9 @@ const App = () => {
           <Sidebar />
           <main className="content">
             <Routes>
+              <Route path="/" element={<DrinksList />} />
+              <Route path="/drink/:id" element={<DrinkDetails />} />
+              <Route path="/cart" element={<Cart />} />
               <Route path="/wishlist" element={<WishlistPage />} />
               <Route path="/account" element={<AccountPage />} />
               <Route path="/checkout" element={<CheckoutPage />} />
